@@ -29,7 +29,7 @@ export default function Home() {
               <button
                 key={subject}
                 onClick={() => setSelectedSubject(subject)}
-                className="w-full px-2 py-1 bg-white text-black rounded hover:bg-gray-200"
+                className="button-67"
               >
                 {subject}
               </button>
