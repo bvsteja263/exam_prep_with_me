@@ -2,23 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
   @apply bg-black text-white;
   font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
+
+.container {
+  display: flex;
+  flex-direction: var(--stack-direction, row);
+  align-items: var(--stack-align, flex-end);
+  justify-content: var(--stack-justify, flex-start);
+  padding: var(--stack-padding, 0px);
+  gap: var(--stack-gap, 12px);
 }
 
 /* Button Styles */
@@ -58,6 +53,8 @@ body {
   .button-67 {
     padding: 24px;
   }
+}
+
 }
 
 
