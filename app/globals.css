@@ -8,6 +8,8 @@ body {
 }
 /* Button Styles */
 .button-67 {
+  padding: 10px;
+  font-size: 0.8rem;
   align-items: center;
   background: #f5f5fa;
   border: 0;
