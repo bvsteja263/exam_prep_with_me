@@ -1,0 +1,55 @@
+[33mcommit 81b7987bd8e81d4f410a36eca97c77fa210413e7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Venkata Sai Teja Bodapati <94819929+bvsteja263@users.noreply.github.com>
+Date:   Sun May 26 06:12:36 2024 +0000
+
+    Fix dynamic routing and ensure correct setup
+
+[33mcommit 2b3d4593b705526b473aef909708ee40bceb7ecc[m
+Author: Venkata Sai Teja Bodapati <94819929+bvsteja263@users.noreply.github.com>
+Date:   Sun May 26 06:07:27 2024 +0000
+
+    Fix dynamic routing for subject pages
+
+[33mcommit 80fbd314f534e24973033e9d1057afa269ec2a14[m
+Author: Venkata Sai Teja Bodapati <94819929+bvsteja263@users.noreply.github.com>
+Date:   Sun May 26 06:03:27 2024 +0000
+
+    Fix TypeScript error for subject string type
+
+[33mcommit 913a2aa042c0aa34cae7b35ca3a0f9155c97ce29[m
+Author: Venkata Sai Teja Bodapati <94819929+bvsteja263@users.noreply.github.com>
+Date:   Sun May 26 06:01:05 2024 +0000
+
+    Update background color and add subject page
+
+[33mcommit 736f1c2db422e31315d24a97aafb7a0dec20b985[m
+Author: Venkata Sai Teja Bodapati <94819929+bvsteja263@users.noreply.github.com>
+Date:   Sat May 25 17:36:38 2024 +0000
+
+    Fix CSS file path
+
+[33mcommit 928e8304611b748b007ef00e2b40406502c3669a[m
+Author: Venkata Sai Teja Bodapati <94819929+bvsteja263@users.noreply.github.com>
+Date:   Sat May 25 17:33:33 2024 +0000
+
+    hhg
+
+[33mcommit 27d17a416589b468e86b8c10cd16482cf32d6ab2[m
+Author: Venkata Sai Teja Bodapati <94819929+bvsteja263@users.noreply.github.com>
+Date:   Sat May 25 16:48:06 2024 +0000
+
+    ADDDED NEW CHANGES
+
+[33mcommit fe14291df0723480e4e820ad202d87f238b22afa[m
+Author: Venkata Sai Teja Bodapati <94819929+bvsteja263@users.noreply.github.com>
+Date:   Sat May 25 16:47:33 2024 +0000
+
+    ADDED NEW ELEMENTS
+
+[33mcommit f44c228061c91bc7b14222c386fbbd6787c93095[m
+Author: bvsteja263 <94819929+bvsteja263@users.noreply.github.com>
+Date:   Sat May 25 15:02:44 2024 +0000
+
+    Initial commit
+    
+    Created from https://vercel.com/new
