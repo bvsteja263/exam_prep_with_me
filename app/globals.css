@@ -6,16 +6,6 @@ body {
   @apply bg-black text-white;
   font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 }
-
-.container {
-  display: flex;
-  flex-direction: var(--stack-direction, row);
-  align-items: var(--stack-align, flex-end);
-  justify-content: var(--stack-justify, flex-start);
-  padding: var(--stack-padding, 0px);
-  gap: var(--stack-gap, 12px);
-}
-
 /* Button Styles */
 .button-67 {
   align-items: center;
@@ -54,8 +44,6 @@ body {
     padding: 24px;
   }
 }
-
-
 
 
 @layer utilities {

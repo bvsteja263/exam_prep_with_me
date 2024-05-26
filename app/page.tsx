@@ -24,7 +24,7 @@ export default function Home() {
       <div className="grid grid-cols-3 gap-4">
         <div>
           <h2 className="text-xl font-semibold mb-4">Subjects</h2>
-          <div className="container" style={{ "--stack-direction": "column", "--stack-gap": "12px" } as React.CSSProperties}>
+          <div className="flex flex-col space-y-4">
             {subjects.map(subject => (
               <button
                 key={subject}
@@ -39,7 +39,7 @@ export default function Home() {
         {selectedSubject && (
           <div className="col-span-2">
             <h2 className="text-xl font-semibold mb-4">{selectedSubject} To-Do List</h2>
-            <ul className="container" style={{ "--stack-direction": "column", "--stack-gap": "8px" } as React.CSSProperties}>
+            <ul>
               {todos[selectedSubject].map((todo, index) => (
                 <li key={index} className="flex items-center mb-2">
                   <input
