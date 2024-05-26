@@ -19,22 +19,22 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-4">
+    <div className="min-h-screen p-4">
       <h1 className="text-2xl font-bold mb-4">Exam Prep With Me</h1>
       <div className="grid grid-cols-3 gap-4">
         <div>
           <h2 className="text-xl font-semibold">Subjects</h2>
-          <ul>
+          <div className="space-y-2">
             {subjects.map(subject => (
-              <li
+              <button
                 key={subject}
                 onClick={() => setSelectedSubject(subject)}
-                className="cursor-pointer text-blue-500 underline"
+                className="w-full px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
               >
                 {subject}
-              </li>
+              </button>
             ))}
-          </ul>
+          </div>
         </div>
         {selectedSubject && (
           <div>
