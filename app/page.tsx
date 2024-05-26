@@ -47,7 +47,7 @@ const Page: React.FC = () => {
   return (
     <Layout>
       <div className="p-4">
-        <h1 className="text-2xl font-bold mb-4">Exam Prep With Me</h1>
+        <h1 className="text-2xl font-bold mb-4">Exam Pregvbfbgnp With Me</h1>
         <div className="grid grid-cols-3 gap-4">
           <div>
             <h2 className="text-xl font-semibold mb-4">Subjects</h2>
